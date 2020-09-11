@@ -1,21 +1,6 @@
-# Template for FrontLoops [Elements] challenge
+# Validation
 
-Install all dependencies
-```bash
-npm i
-```
-
-For start watching all files use:
-```bash
-npm run start
-```
-
-then open in browser
-```bash
-http://localhost:1234/
-```
-
-For build all files use:
-```bash
-npm run build
-```
+Build a script for form validation.
+It should validate form on its submit and should support required fields, emails
+and field confirmation (should check if the value of the linked field is the same).
+If form is invalid it shouldn't be submitted and errors must be shown.
